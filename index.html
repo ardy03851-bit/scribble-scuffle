@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#f2ead8">
+<title>Scribble Scuffle — Ink &amp; Paper Arena Brawler</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="game-canvas"></canvas>
+  <div id="hud" class="hidden"></div>
+  <div id="touch-controls" class="hidden"></div>
+  <div id="screens"></div>
+  <div id="toasts"></div>
+</div>
+<noscript><div style="padding:2rem;font-family:serif">This game needs JavaScript — it is fully offline once loaded.</div></noscript>
+<script src="js/engine/core.js"></script>
+<script src="js/engine/events.js"></script>
+<script src="js/engine/renderer.js"></script>
+<script src="js/engine/pool.js"></script>
+<script src="js/engine/noise.js"></script>
+<script src="js/world/terrain.js"></script>
+<script src="js/world/water.js"></script>
+<script src="js/world/weather.js"></script>
+<script src="js/world/biomes.js"></script>
+<script src="js/world/props.js"></script>
+<script src="js/world/grass.js"></script>
+<script src="js/game/physics.js"></script>
+<script src="js/game/cloth.js"></script>
+<script src="js/game/character.js"></script>
+<script src="js/game/wardrobe.js"></script>
+<script src="js/game/weapons.js"></script>
+<script src="js/game/weaponArt.js"></script>
+<script src="js/game/building.js"></script>
+<script src="js/game/bots.js"></script>
+<script src="js/game/vfx.js"></script>
+<script src="js/game/projectiles.js"></script>
+<script src="js/game/audio.js"></script>
+<script src="js/game/match.js"></script>
+<script src="js/game/modes.js"></script>
+<script src="js/game/hud.js"></script>
+<script src="js/game/victory3d.js"></script>
+<script src="js/game/menu.js"></script>
+<script src="js/game/rules.js"></script>
+<script src="js/game/wardrobeScreen.js"></script>
+<script src="js/game/debug.js"></script>
+<script src="js/game/main.js"></script>
+</body>
+</html>
